@@ -5,15 +5,15 @@ using UnityEngine;
 
 public class HelloWorld : MonoBehaviour
 {
-    public int speed = 12;
+    public int speed = 8;
     public GameObject helloText;
-    public string MyText = "Hello World 2";
+    // string myText = "Hello World 2";
     // Start is called before the first frame update
     void Start()
     {
-        print("Hello World!");
-        Application.targetFrameRate = 30;
-        helloText.GetComponent<TextMeshPro>().text = "Hello World 2";
+        // print(myText);
+        Application.targetFrameRate = 100;
+        helloText.GetComponent<TextMeshPro>().text = "GO !";
     }
 
     // Update is called once per frame
